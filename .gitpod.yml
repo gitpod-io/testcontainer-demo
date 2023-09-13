@@ -1,5 +1,5 @@
 
 tasks:
-  - init: go get -t
+  - init: go get -t && docker pull redis:latest
 
 
